@@ -1,0 +1,6 @@
+---
+# handlers file for mariadb
+#    - name: start mariadb
+ #     ansible.builtin.service:
+  #      name: mariadb
+   #     state: started

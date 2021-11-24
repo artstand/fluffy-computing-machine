@@ -1,0 +1,17 @@
+---
+- name: execute roles
+  hosts: 127.0.0.1
+  connection: local
+  gather_facts: true
+  # "{{ variable }}"
+  #hosts: local
+  #user: pi
+  become: true
+  
+
+  roles:
+    - role: apache2
+    - role: mariadb
+
+  
+       
