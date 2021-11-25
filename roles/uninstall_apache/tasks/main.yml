@@ -1,0 +1,8 @@
+---
+# tasks file for apache2
+ - name: remove apache2
+   apt: 
+        name: apache2
+        state: absent
+        
+ 
