@@ -43,7 +43,9 @@
 #db-[99:101]-node.example.com
 
 [linux]
-
+5
+5
+4
 
 
 [linux:vars]
